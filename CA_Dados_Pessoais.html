@@ -1,0 +1,99 @@
+<!--Início Incluir-->
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css"/>
+    <title>Consorcio Atual</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+
+</head>
+
+<header>
+    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td colspan="0"> 
+                <form method="post" action="Cotas.html">
+                    <input type="submit" name="Submit" value="Cotas">
+                </form>
+            </td>
+            <td colspan="0"> 
+                <form method="post" action="Consorcio_Atual.html">
+                    <input type="submit" name="Submit" value="Consorcio Atual">
+                </form>
+            </td>
+            <td colspan="0"> 
+                <form method="post" action="Comprador_cota.html">
+                    <input type="submit" name="Submit" value="Comprador da cota">
+                </form>
+            </td>
+            <td colspan="0"> 
+                <form method="post" action="Documentos.html">
+                    <input type="submit" name="Submit" value="documentos">
+                </form>
+            </td>
+            <td colspan="0"> 
+                <form method="post" action="Revisao.html">
+                    <input type="submit" name="Submit" value="Revisão">
+                </form>
+            </td>
+        </tr><br>
+    </table>
+     
+</header>
+<body>
+   
+<div> <!--SubMenu'-->
+    
+    <table width="100%" border="1" cellspacing="0" cellpadding="0">
+        <tr>
+            <td colspan="0"> 
+                <form method="post" action="CA_Dados_Pessoais.html">
+                    <input type="submit" name="Submit" value="Dados Pessoais">
+                </form>
+            </td>
+            <td colspan="0"> 
+                <form method="post" action="CA_Endereco.html">
+                    <input type="submit" name="Submit" value="Endereço">
+                </form>
+            </td>
+            <td colspan="0"> 
+                <form method="post" action="CA_Dados_Procurador.html">
+                    <input type="submit" name="Submit" value="Dados do Procurador">
+                </form>
+            </td>
+        </tr><br>
+    </table>
+</div>
+
+<div>
+    <table>
+        <tr>
+            <td colspan="0"> 
+                <br> Nome: <input type="text" name="dp_nome">
+            </td>
+            <td colspan="0"> 
+                <br> CPF: <input type="text" name="dp_cpf">
+            </td>
+            <td colspan="0"> 
+                <br> (DDD) Telefone Celular: <input type="text" name="dp_telefone">
+            </td>
+        </tr><br>
+        <tr>
+            <td colspan="0"> 
+                <br> E-mail: <input type="text" name="dp_E-mail" value="E-mail deve ser informado">
+            </td>
+            <td>
+                <fieldset id="endereco">Está representado por procurador?
+                    <input type="radio" name="radio_procurador" id="_sim" /><label for="_sim">Sim</label><br/>
+                    <input type="radio" name="radio_procurador" id="_nao" /> <label for="_nao">Não</label>
+                </fieldset>
+                <!-- Caso o usuário Responda não habilitar os campos abaixo-->
+            </td>    
+        </tr></br>
+        
+    </table>
+</div>
+
+</body>
