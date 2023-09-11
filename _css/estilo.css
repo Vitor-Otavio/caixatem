@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+body {
+    /*background: url(../_imagens/fundo1.jpg) ;
+    background-size: 100%;
+    background-attachment: fixed; */
+    background-color: #c8e5f5;
+    font-family: arial, sans-serif;
+}
+
+.conteudo {
+    padding: 8px;
+    width: 700px;
+    height: auto;
+    background-color: rgba(255, 255, 250, 0.6);
+    margin: 145px auto 200px auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);
+} 
+
+.consulta{
+    padding: 8px;
+    width: auto;
+    height: auto;
+    background-color: rgba(255, 255, 250, 0.6);
+    margin: 145px auto 200px auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);
+}
+
+.consulta_maior{
+    padding: 8px;
+    width: 130%;
+    height: auto;
+    background-color: rgba(255, 255, 250, 0.6);
+    margin: 145px auto 200px auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);
+}
+
+.consulta_maior2{
+    padding: 8px;
+    width: 110%;
+    height: auto;
+    background-color: rgba(255, 255, 250, 0.6);
+    margin: 145px auto 200px auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);
+}
+
+.consulta_itens{
+    padding: 8px;
+    width: 150%;
+    height: auto;
+    background-color: rgba(255, 255, 250, 0.6);
+    margin: 145px auto 200px auto;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-shadow: 3px 3px 0.3px rgba(0,0,0,.3);
+}
+
+input {
+    background-color:#9dbcf5;
+    font: 15px georgia, sans-serif;
+    color:rgb(0, 0, 0);
+    border:2px solid #000000;
+    }
+
+select {
+        background-color:#9dbcf5;
+        font: 15px georgia, sans-serif;
+        color:rgb(0, 0, 0);
+        border:2px solid #000000;
+        }
+    
+.botao {
+    background-color:#9dbcf5;
+    font: 15px georgia, sans-serif;
+    color:rgb(0, 0, 0);
+    border:2px solid #080808;
+    margin-right: 20px;
+    border-radius: 20px;
+    }
+
+.tabela {
+    border: 1px solid  #606060;
+    border-spacing: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    } 
+        
+.tabela td {
+    border: 1px solid  #606060;
+    padding: 0px;
+    text-align: center;
+    vertical-align: middle;
+    } */
+        
+.tabela td.ce { /*titulo*/
+    color: #ffffff;
+    background-color: rgba(159, 158, 160, 0.6);
+    vertical-align: top;
+    }
+        
+.tabela td.cd { /*linha*/
+    font-weight: bold;
+    background-color: rgba(210, 209, 211, 0.6);
+        }
+        
+.tabela caption {
+    color: #020202;
+    font-size: 17pt;
+    font-weight: bold;
+        }
+        
+.tabela span {
+    display: block;
+    float: right;
+    color: black;
+    font-size: 8pt;
+    margin-top: 10px;
+    }
